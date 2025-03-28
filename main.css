@@ -169,12 +169,14 @@ form button,
 .amenities h2,
 .usp h2,
 .contact h2,
+.nearby h2,
 .gallery h2,
 .about h2,
 .testimonial h2,
 .featured h2,
 .snapshot h2,
-.project h2, .specifications h2 {
+.project h2,
+.specifications h2 {
   font-size: 32px;
   font-weight: 600;
   color: var(--primary-color) !important;
@@ -252,7 +254,17 @@ form button,
 }
 
 /* location page */
+.nearby svg {
+  stroke: var(--primary-color);
+}
 
+.nearby h4{
+  color: var(--primary-color) !important;
+}
+
+.nearby p{
+  margin-bottom: 0rem;
+}
 
 /* testemonial page */
 .review {
@@ -280,7 +292,7 @@ form button,
 
 .review h4,
 .amenities h4,
-.project h4 {
+.project h4, .nearby h4 {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 0;
@@ -452,7 +464,7 @@ footer svg {
     background: var(--white-color);
   }
 
-  .bolpur .nav-item{
+  .bolpur .nav-item {
     color: var(--text-color) !important;
   }
 
