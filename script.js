@@ -20,3 +20,8 @@ function addText(text) {
     text.classList.remove('d-none');
     textRemoved = true;
 }
+
+
+const redirectContact = () => {
+    window.location.href = "contact.html";
+}
