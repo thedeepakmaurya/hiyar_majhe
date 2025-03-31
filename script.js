@@ -2,10 +2,13 @@ let textRemoved = true;
 
 function toggleText() {
     const text = document.querySelector('.hero-text');
+    const nav = document.querySelector('.navbar');
     if (textRemoved) {
         removeText(text);
+        nav.classList.add('bg-white');
     } else {
         addText(text);
+        nav.classList.remove('bg-white');
     }
 }
 
