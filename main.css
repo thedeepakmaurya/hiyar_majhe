@@ -103,7 +103,7 @@ header {
   border: 1px solid var(--white-color);
 }
 
-.call{
+.call {
   border: 1px solid var(--primary-color);
   padding: 10px 20px;
   border-radius: 10px;
@@ -525,7 +525,7 @@ footer svg:hover {
     color: var(--text-color) !important;
   }
 
-  .cst-call{
+  .cst-call {
     border: 1px solid var(--primary-color);
     padding: 10px 20px;
     border-radius: 10px;
